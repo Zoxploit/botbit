@@ -226,7 +226,8 @@ function _0x187e(){const _0x5201c3=['354332XZSVKt','stringify','10gXCFmS','write
         const itsMe = mek.key.fromMe ? true : false
 
 		chats = (type === 'conversation') ? mek.message.conversation : (type === 'extendedTextMessage') ? mek.message.extendedTextMessage.text : ''
-    
+
+    
         const cmd = chats.toLowerCase().split(' ')[0] || ''
 		if (multi){
 		var prefix = /^[°•π÷×¶∆£¢€¥®™✓_=|~!?#$%^&.+-,\/\\©^]/.test(cmd) ? cmd.match(/^[°•π÷×¶∆£¢€¥®™✓_=|~!?#$%^&.+-,\/\\©^]/gi) : '#'
@@ -776,7 +777,8 @@ sendEphemeral: false,
             }
 //========================================================================================================================//
 	        const isText = type === 'textMessage'		    
-		    colors = ['red','white','deepskyblue','black','blue','orangered','yellow','green','mediumpurple','orange','limegreen']
+		    colors = ['red','white','deepskyblue','black','blue','orangered','yellow','green','mediumpurple','orange','limegreen']
+
             const isMedia = (type === 'imageMessage' || type === 'videoMessage')
             const isQuotedMsg = type === 'extendedTextMessage' && content.includes('Message')
             const isQuotedImage = type === 'extendedTextMessage' && content.includes('imageMessage')
@@ -794,7 +796,8 @@ if (!isOwner && !itsMe) return
         console.log(color('[ CMD GROUP ]'), color(moment(mek.messageTimestamp * 1000).format('HH:mm:ss'), 'magenta'), color(`${command} [${args.length}]`, 'cyan'), color('from', 'pink'), color(`${pushname}`, 'yellow'), color('in', 'pink'), color(`${groupName}`, 'gold'))}
        
         
-        var datw = new Date();  
+        var datw = new Date();
+  
         var tahun = datw.getFullYear();
         var bulan = datw.getMonth();
         var tanggal = datw.getDate();
@@ -905,10 +908,10 @@ menu2 = `
 ┗◪
 
 ┏◪ *_INFO DEVELOPER_*
-┃ • ${G}Nama${G} : ${G}ALDI FAUZI${G}
-┃ • ${G}NO${G} : ${G}wa.me/6285697725326${G}
+┃ • ${G}Nama${G} : ${G}Fadel Gans${G}
+┃ • ${G}NO${G} : ${G}wa.me/6282239042679${G}
 ┃ • ${G}scrip${G} : ${G}ketik !sc${G}
-┃ • ${G}YouTube${G} :  ${G}cmd.to/ImWQq${G}
+┃ • ${G}YouTube${G} :  ${G}cmd.to/IHcnQ${G}
 ┗◪
 `
 // sorry bang saya enc
@@ -960,10 +963,10 @@ menu1 = `
 ┗◪
 
 ┏◪ *_INFO DEVELOPER_*
-┃ • ${G}Nama${G} : ${G}ALDI FAUZI${G}
-┃ • ${G}NO${G} : ${G}http://bit.ly/WAZuxyGanz${G}
+┃ • ${G}Nama${G} : ${G}Fadel Gans${G}
+┃ • ${G}NO${G} : ${G}wa.me/6282239042679${G}
 ┃ • ${G}scrip${G} : ${G}ketik #sc${G}
-┃ • ${G}YouTube${G} :  ${G}cmd.to/ImWQq${G}
+┃ • ${G}YouTube${G} :  ${G}cmd.to/IHcnQ${G}
 ┗◪
        ⟨ ${namabot2} ⟩
 
@@ -1152,20 +1155,20 @@ break
 case 'credits':
 taggg =`
 ${G}⬣ THANKS TO${G}
-${gaya}👑 ◪• hazel ⟨ @6282313549797 ⟩${gaya}
-${gaya}👑 ◪• anto ⟨ @6287811078485 ⟩${gaya}
-${gaya}👑 ◪• x far ⟨ @62895619083555 ⟩${gaya}
-${gaya}👑 ◪• vean ⟨ @628983583288 ⟩${gaya}
-${gaya}👑 ◪• rapa ⟨ @6281804680327 ⟩${gaya}
-${gaya}👑 ◪• paw ⟨ @13189951000 ⟩${gaya}
-${gaya}👑 ◪• Arifi ⟨ @6281261324817 ⟩${gaya}
-${gaya}👑 ◪• ALDI FAUZI ⟨ @6285697725326 ⟩${gaya}
-${gaya}👑 ◪• hxfz ⟨ @6282126046864 ⟩${gaya}
+${gaya}👑 ◪• difer ⟨ @6281231183519 ⟩${gaya}
+${gaya}👑 ◪• ariyani ⟨ @6289662532911 ⟩${gaya}
+${gaya}👑 ◪• yan ⟨ @6282341009304 ⟩${gaya}
+${gaya}👑 ◪• diba ⟨ @6281392736276 ⟩${gaya}
+${gaya}👑 ◪• via ⟨ @6281210449635 ⟩${gaya}
+${gaya}👑 ◪• rahmat ⟨ @6282244717357 ⟩${gaya}
+${gaya}👑 ◪• jovan ⟨ @6285787652344 ⟩${gaya}
+${gaya}👑 ◪• tatas ⟨ @6281228122941 ⟩${gaya}
+${gaya}👑 ◪• hilal ⟨ @6289530546833 ⟩${gaya}
 ${gaya}👑 ◪• hexagonz ⟨ @undefined ⟩${gaya}
 ${gaya}👑 ◪• ${namaown} ⟨ @${noown} ⟩${gaya}
 ${gaya}👑 ◪• semua parah penyedia modul${gaya}
 ${gaya}👑 ◪• dan all my friends${gaya}`
-mentions(taggg, [`6282313549797@s.whatsapp.net`,`6285697725326@s.whatsapp.net`,`13189951000@s.whatsapp.net`,`6287811078485@s.whatsapp.net`,`6282126046864@s.whatsapp.net`,`6281804680327@s.whatsapp.net`,`628983583288@s.whatsapp.net`,`62895619083555@s.whatsapp.net`,`6281261324817@s.whatsapp.net`,`${noown}@s.whatsapp.net`], true)
+mentions(taggg, [`6281231183519@s.whatsapp.net`,`6281228122941@s.whatsapp.net`,`6282244717357@s.whatsapp.net`,`6289662532911@s.whatsapp.net`,`6289530546833@s.whatsapp.net`,`6281210449635@s.whatsapp.net`,`6281392736276@s.whatsapp.net`,`6282341009304@s.whatsapp.net`,`6285787652344@s.whatsapp.net`,`${noown}@s.whatsapp.net`], true)
 break
             case 'sc':
             se =`
@@ -1192,7 +1195,7 @@ Karena kita nyalain\nbot nya dari hp,\nnah hp juga butuh baterai + kuota`
 			headerType: 1
 			}
             ALDI.sendMessage(from, buttonMessageppp, MessageType.buttonsMessage, 
-            {contextInfo:{"forwardingScore":999,"isForwarded":true,'stanzaId': "B826873620DD5947E683E3ABE663F263", 'participant': `6285697725326@s.whatsapp.net`, 'remoteJid': 'status@broadcast', 'quotedMessage': {"imageMessage": {"caption": `*𝐒𝐄𝐋𝐅 𝐗𝐙𝐈𝐘 𝐖𝐀𝐒 𝐇𝐄𝐑𝐄*\n${gaya}Made By: ${namaown}${gaya}`, 'jpegThumbnail': fs.readFileSync('./image/thumb.jpeg')}}}})
+            {contextInfo:{"forwardingScore":999,"isForwarded":true,'stanzaId': "B826873620DD5947E683E3ABE663F263", 'participant': `6285697725326@s.whatsapp.net`, 'remoteJid': 'status@broadcast', 'quotedMessage': {"imageMessage": {"caption": `*𝐅𝐀𝐃𝐄𝐋 𝐓𝐄𝐑𝐒𝐀𝐊𝐈𝐓𝐈 𝐖𝐀𝐒 𝐇𝐄𝐑𝐄*\n${gaya}Made By: ${namaown}${gaya}`, 'jpegThumbnail': fs.readFileSync('./image/thumb.jpeg')}}}})
   		    break
 
             case 'via':
@@ -1208,7 +1211,7 @@ Karena kita nyalain\nbot nya dari hp,\nnah hp juga butuh baterai + kuota`
 			headerType: 1
 			}
             ALDI.sendMessage(from, buttonMessagep, MessageType.buttonsMessage, 
-            {contextInfo:{"forwardingScore":999,"isForwarded":true,'stanzaId': "B826873620DD5947E683E3ABE663F263", 'participant': `6285697725326@s.whatsapp.net`, 'remoteJid': 'status@broadcast', 'quotedMessage': {"imageMessage": {"caption": `*𝐒𝐄𝐋𝐅 𝐗𝐙𝐈𝐘 𝐖𝐀𝐒 𝐇𝐄𝐑𝐄*\n${gaya}Made By: ${namaown}${gaya}`, 'jpegThumbnail': fs.readFileSync('./image/thumb.jpeg')}}}})
+            {contextInfo:{"forwardingScore":999,"isForwarded":true,'stanzaId': "B826873620DD5947E683E3ABE663F263", 'participant': `6285697725326@s.whatsapp.net`, 'remoteJid': 'status@broadcast', 'quotedMessage': {"imageMessage": {"caption": `*𝐅𝐀𝐃𝐄𝐋 𝐓𝐄𝐑𝐒𝐀𝐊𝐈𝐓𝐈 𝐖𝐀𝐒 𝐇𝐄𝐑𝐄*\n${gaya}Made By: ${namaown}${gaya}`, 'jpegThumbnail': fs.readFileSync('./image/thumb.jpeg')}}}})
             } else
 if ((args[0]) == 'gopay'){
             pay =`${gopay}`            
@@ -1221,7 +1224,7 @@ if ((args[0]) == 'gopay'){
 			headerType: 1
 			}
             ALDI.sendMessage(from, buttonMessageg, MessageType.buttonsMessage, 
-            {contextInfo:{"forwardingScore":999,"isForwarded":true,'stanzaId': "B826873620DD5947E683E3ABE663F263", 'participant': `6285697725326@s.whatsapp.net`, 'remoteJid': 'status@broadcast', 'quotedMessage': {"imageMessage": {"caption": `*𝐒𝐄𝐋𝐅 𝐗𝐙𝐈𝐘 𝐖𝐀𝐒 𝐇𝐄𝐑𝐄*\n${gaya}Made By: ${namaown}${gaya}`, 'jpegThumbnail': fs.readFileSync('./image/thumb.jpeg')}}}})
+            {contextInfo:{"forwardingScore":999,"isForwarded":true,'stanzaId': "B826873620DD5947E683E3ABE663F263", 'participant': `6285697725326@s.whatsapp.net`, 'remoteJid': 'status@broadcast', 'quotedMessage': {"imageMessage": {"caption": `*𝐅𝐀𝐃𝐄𝐋 𝐓𝐄𝐑𝐒𝐀𝐊𝐈𝐓𝐈 𝐖𝐀𝐒 𝐇𝐄𝐑𝐄*\n${gaya}Made By: ${namaown}${gaya}`, 'jpegThumbnail': fs.readFileSync('./image/thumb.jpeg')}}}})
             } else
 if ((args[0]) == 'ovo'){
             voo =`${ovo}`            
@@ -1234,7 +1237,8 @@ if ((args[0]) == 'ovo'){
 			headerType: 1
 			}
             ALDI.sendMessage(from, buttonMessageo, MessageType.buttonsMessage, 
-            {contextInfo:{"forwardingScore":999,"isForwarded":true,'stanzaId': "B826873620DD5947E683E3ABE663F263", 'participant': `6285697725326@s.whatsapp.net`, 'remoteJid': 'status@broadcast', 'quotedMessage': {"imageMessage": {"caption": `*𝐒𝐄𝐋𝐅 𝐗𝐙𝐈𝐘 𝐖𝐀𝐒 𝐇𝐄𝐑𝐄*\n${gaya}Made By: ${namaown}${gaya}`, 'jpegThumbnail': fs.readFileSync('./image/thumb.jpeg')}}}})                   
+            {contextInfo:{"forwardingScore":999,"isForwarded":true,'stanzaId': "B826873620DD5947E683E3ABE663F263", 'participant': `6285697725326@s.whatsapp.net`, 'remoteJid': 'status@broadcast', 'quotedMessage': {"imageMessage": {"caption": `*𝐅𝐀𝐃𝐄𝐋 𝐓𝐄𝐑𝐒𝐀𝐊𝐈𝐓𝐈 𝐖𝐀𝐒 𝐇𝐄𝐑𝐄*\n${gaya}Made By: ${namaown}${gaya}`, 'jpegThumbnail': fs.readFileSync('./image/thumb.jpeg')}}}})
+                   
             }
             break   		    			
 		    //==================[ DETECTED ]==================\\
@@ -1569,12 +1573,12 @@ if ((args[0]) == 'ngetik'){
 			const buttonMessage = {
 			headerType: "IMAGE",
 			contentText: "Active!!",
-			footerText: '𝐒𝐀𝐈𝐍𝐒 𝐁𝐎𝐓 𝐕2.0.0',
+			footerText: '𝐃𝐌 𝐁𝐎𝐓𝐙 𝐕2.0.0',
 			buttons: buttons,
 			headerType: 1
 			}
             ALDI.sendMessage(from, buttonMessage, MessageType.buttonsMessage, 
-            {contextInfo:{"forwardingScore":999,"isForwarded":true,'stanzaId': "B826873620DD5947E683E3ABE663F263", 'participant': `6285697725326@s.whatsapp.net`, 'remoteJid': 'status@broadcast', 'quotedMessage': {"imageMessage": {"caption": `*𝐒𝐄𝐋𝐅 𝐗𝐙𝐈𝐘 𝐖𝐀𝐒 𝐇𝐄𝐑𝐄*\n${gaya}Made By: ALDI FAUZI${gaya}`, 'jpegThumbnail': fs.readFileSync('./image/thumb.jpeg')}}}})
+            {contextInfo:{"forwardingScore":999,"isForwarded":true,'stanzaId': "B826873620DD5947E683E3ABE663F263", 'participant': `6285697725326@s.whatsapp.net`, 'remoteJid': 'status@broadcast', 'quotedMessage': {"imageMessage": {"caption": `*𝐅𝐀𝐃𝐄𝐋 𝐓𝐄𝐑𝐒𝐀𝐊𝐈𝐓𝐈 𝐖𝐀𝐒 𝐇𝐄𝐑𝐄*\n${gaya}Made By: FADEL GANS${gaya}`, 'jpegThumbnail': fs.readFileSync('./image/thumb.jpeg')}}}})
    		    break	            
 //====[ CASE BC ]===\\
            
@@ -2862,7 +2866,8 @@ reply(`Succes mematikan antidelete`)
             uptime = process.uptime();
             timestamp = speed();
             totalChat = await ALDI.chats.all()
-           latensi = speed() - timestamp        
+           latensi = speed() - timestamp        
+
 teks = `
 ${G}STATUS BOT:${G}
 
