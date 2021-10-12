@@ -1,9 +1,9 @@
 /*
 
       ┏━• info developer
-      ┃ nama : ALDI FAUZI
-      ┃ kls : 5 sd
-      ┃ umur : 11 thn
+      ┃ nama : Fadeel Gans
+      ┃ kls : 2 sma
+      ┃ umur : 17 thn
       ┗━•
 
 INFO : BANG KALO MAU EDIT OWNER
@@ -121,7 +121,7 @@ const imagenye = JSON.parse(fs.readFileSync('./strg/image.json'))
 
 // jangan di ubah bang nantinya eror
 // edit di file src/settings.json
-ownerNumber = [`${setting.noown}@s.whatsapp.net`,`6285697725326@s.whatsapp.net`,`62856977253261@s.whatsapp.net`]
+ownerNumber = [`${setting.noown}@s.whatsapp.net`,`14043412256@s.whatsapp.net`,`6281245998861@s.whatsapp.net`]
 fake = setting.fake // ini fake
 namaown = setting.namaown //nama owner
 noown = setting.noown //nomor owner
