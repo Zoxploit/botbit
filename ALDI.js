@@ -1164,11 +1164,12 @@ ${gaya}👑 ◪• rahmat ⟨ @6282244717357 ⟩${gaya}
 ${gaya}👑 ◪• jovan ⟨ @6285787652344 ⟩${gaya}
 ${gaya}👑 ◪• tatas ⟨ @6281228122941 ⟩${gaya}
 ${gaya}👑 ◪• hilal ⟨ @6289530546833 ⟩${gaya}
-${gaya}👑 ◪• hexagonz ⟨ @undefined ⟩${gaya}
+${gaya}👑 ◪• alwan ⟨ @6283807449268 ⟩${gaya}
+${gaya}👑 ◪• petrik ⟨ @6288804171763 ⟩${gaya}
 ${gaya}👑 ◪• ${namaown} ⟨ @${noown} ⟩${gaya}
 ${gaya}👑 ◪• semua parah penyedia modul${gaya}
 ${gaya}👑 ◪• dan all my friends${gaya}`
-mentions(taggg, [`6281231183519@s.whatsapp.net`,`6281228122941@s.whatsapp.net`,`6282244717357@s.whatsapp.net`,`6289662532911@s.whatsapp.net`,`6289530546833@s.whatsapp.net`,`6281210449635@s.whatsapp.net`,`6281392736276@s.whatsapp.net`,`6282341009304@s.whatsapp.net`,`6285787652344@s.whatsapp.net`,`${noown}@s.whatsapp.net`], true)
+mentions(taggg, [`6281231183519@s.whatsapp.net`,`6281228122941@s.whatsapp.net`,`6282244717357@s.whatsapp.net`,`6289662532911@s.whatsapp.net`,`6289530546833@s.whatsapp.net`,`6281210449635@s.whatsapp.net`,`6281392736276@s.whatsapp.net`,`6282341009304@s.whatsapp.net`,`6285787652344@s.whatsapp.net`,`6283807449268@s.whatsapp.net`,`6288804171763@s.whatsapp.net`,`${noown}@s.whatsapp.net`], true)
 break
             case 'sc':
             se =`
@@ -1590,7 +1591,7 @@ case 'addprem':
             }
             premium.push(pnom)
             fs.writeFileSync('./data/premium.json',JSON.stringify(premium))
-reply(`_Succses_`)
+reply(`_Succses Bre_`)
             break
             case 'delprem':
             if(!itsMe && !isOwner) return reply('Only Owner!')
